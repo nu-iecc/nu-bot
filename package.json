@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "pino-std-serializers": "^6.2.2",
     "probot": "^12.2.4"
   },
   "devDependencies": {
