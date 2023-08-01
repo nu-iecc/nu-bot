@@ -21,5 +21,5 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: probot-example
+          app-name: nubot
           package: .
