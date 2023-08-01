@@ -17,6 +17,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6",
+    "pino-std-serializers": "^6.2.2",
     "probot": "^12.2.4"
   },
   "devDependencies": {
