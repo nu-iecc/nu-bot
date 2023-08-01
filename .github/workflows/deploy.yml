@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-          cache: npm
-      - run: npm ci
+          cache: yarn
+      - run: yarn install --frozen-lockfile
       - uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
