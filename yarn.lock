@@ -809,6 +809,13 @@
     "@octokit/webhooks-types" "5.8.0"
     aggregate-error "^3.1.0"
 
+"@probot/adapter-azure-functions@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@probot/adapter-azure-functions/-/adapter-azure-functions-1.0.23.tgz#70c317e1ef4339b9caafa38d46312d9f5511282d"
+  integrity sha512-lJ6RP3q4TbSzaTV1g9PdWRvgsLqfApjXErUE1BJ4QcT2LkBWdFt2zF2okWX7ekNhDLSMXBda5r2b4f+H+pbsfQ==
+  dependencies:
+    probot "^12.2.7"
+
 "@probot/get-private-key@^1.1.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@probot/get-private-key/-/get-private-key-1.1.1.tgz#12bf61d00a15760d9b0bd713a794f9c4ba4ad5d3"
@@ -3205,7 +3212,7 @@ pretty-format@^29.0.0, pretty-format@^29.6.2:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-probot@^12.2.4:
+probot@^12.2.4, probot@^12.2.7:
   version "12.3.1"
   resolved "https://registry.yarnpkg.com/probot/-/probot-12.3.1.tgz#6a19f3faf941978df04afb2dd3f5f65422450c03"
   integrity sha512-ECSgycmAC0ILEK6cOa+x3QPufP5JybsuohOFCYr3glQU5SkbmypZJE/Sfio9mxAFHK5LCXveIDsfZCxf6ck4JA==

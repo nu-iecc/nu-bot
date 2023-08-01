@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@probot/adapter-azure-functions": "^1.0.23",
     "graphql": "^16.7.1",
     "graphql-tag": "^2.12.6",
     "pino-std-serializers": "^6.2.2",
